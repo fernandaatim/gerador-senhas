@@ -1,0 +1,30 @@
+@use '../variable';
+
+input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+label{
+    font-size: variable.$font-size;
+    padding: 1rem;
+}
+
+button{
+    width: 80%;
+    padding: 10px;
+    color: white;
+    background-color: variable.$colorPrimary;
+    font-size: variable.$font-size;
+    box-sizing: border-box;
+    border: 1px solid variable.$colorPrimary; 
+    outline: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: variable.$colorSecundary;
+}
