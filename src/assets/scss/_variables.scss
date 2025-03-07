@@ -1,0 +1,20 @@
+// Fontes
+$font-family: 'Arial';
+$font-size: 18px;
+
+// Cores
+$colorPrimary: rgb(3, 84, 109);
+$colorPrimaryDark: rgb(2, 59, 77);
+$colorWhite: #FFFFFF;
+
+// Tipografia
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$line-height-normal: 1.5;
+$letter-spacing-normal: 0;
+$text-transform-uppercase: uppercase;
+$text-transform-lowercase: lowercase;
+
+// Tamanhos de fonte com base nas variáveis
+$font-size-small: $font-size - 2px;
+$font-size-large: $font-size + 4px;

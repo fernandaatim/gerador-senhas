@@ -1,0 +1,11 @@
+@use '../variables';
+
+ul{
+    padding: 1rem;
+    font-size: variables.$font-size;
+    width: 100%;
+}
+
+li{
+    padding: 0.2rem;
+}

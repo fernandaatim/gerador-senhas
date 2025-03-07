@@ -1,0 +1,20 @@
+@use '../variables';
+@use '../typography';
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: variables.$colorPrimary;
+    font-size: variables.$font-size;
+    font-weight: variables.$font-weight-bold;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-top: 1rem;
+
+    &:hover {
+        cursor: pointer;
+        background-color: variables.$colorPrimaryDark;
+    }
+}
